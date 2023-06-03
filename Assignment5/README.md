@@ -19,7 +19,7 @@ It also contains function to plot the metrics graph.
 ## Usage/Examples
 
 ```python
-import models
+import model
 
 model_summary = model.Net().to(device)
 summary(model_summary, input_size=(1, 28, 28))
