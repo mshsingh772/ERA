@@ -15,7 +15,9 @@ Model summary for new model architecture
 
 
 Model Accuracy
+
 ![Model Accuracy](imgs/accuracy.PNG)
+
 ## Logs
 
 ```python
