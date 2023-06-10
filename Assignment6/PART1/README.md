@@ -16,12 +16,12 @@ Here we demonstrate the back-propagation for updation of weights considering the
 11) a_h1 is sigmoid on h1 [Sigmoid is applied to introduce non-linearity. It is calculated as 1/(1+EXP(-x))]
 12) The same operation is carried on for next layer to compute o1, o2 and their sigmoid activations as a_o1 and a_o2 respectively.
 13) We compute the derivatives(partial) of loss with respect to weights from w1 to w8.
-14) For the next iteration we use the calculated derivatives to adjust the weights, considering the learning rate as 1.
+14) For the next iteration we use the calculated derivatives to adjust the weights. Considering the learning rate as 1,
 w1 for next iterations is given by w1 - LR * dE / dw1, the same formula is used to compute other weights.
 
 Learning Rate Observations
 
-Learning rate is a hyperparameter we use in our network that defines the adjustment in the weights of our network with respect to loss gradient descent. Keeping a higher learning rate means we move faster towards the optimal weight, where there is possibility we might skip the optimal solution while a lower learning rate means we will need many iterations to converge.        
+Learning rate is a hyper-parameter we use in our network that defines the adjustment in the weights of our network with respect to loss gradient descent. Keeping a higher learning rate means we move faster towards the optimal weight, where there is possibility we might skip the optimal solution while a lower learning rate means we will need many iterations to converge.        
 
 
 In our example, Keeping learning rate as 0.1, we got a straight line with a very less decrease in loss. This means although our model is learning, it's learning at a very slow rate. On increasing the learning rate to 0.2 to 0.5 and then to 0.8, we observe a curve, with further decrease in loss. The optimal curve is observed with learning rate as 1 and 2 for our data. However on incresing the learning rate to a very high value, 1000, the loss spikes and increases. Thus, concluding that both very loss and very high values for learning rate are not optimal.
