@@ -43,22 +43,22 @@ Excel Sheet
 
 
 Learning Rate: 0.1
-![0_1LR] (imgs/0_1LR.PNG)
+![0_1LR ](imgs/0_1LR.PNG)
 
 Learning Rate: 0.2
-![0_2LR] (imgs/0_2LR.PNG)
+![0_2LR ](imgs/0_2LR.PNG)
 
 Learning Rate: 0.5
-![0_5LR] (imgs/0_5LR.PNG)
+![0_5LR ](imgs/0_5LR.PNG)
 
 Learning Rate: 0.8
-![0_8R] (imgs/0_8LR.PNG)
+![0_8R ](imgs/0_8LR.PNG)
 
 Learning Rate: 1.0
-![1_0LR] (imgs/1LR.PNG)
+![1_0LR ](imgs/1LR.PNG)
 
 Learning Rate: 2.0
-![2_0LR] (imgs/2LR.PNG)
+![2_0LR ](imgs/2LR.PNG)
 
 Learning Rate: 1000
 ![1000LR](imgs/1000LR.PNG)
